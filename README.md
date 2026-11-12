@@ -1,2 +1,2 @@
 # BASE-DE-CONHECIMENTO
-Repositório de base de conhecimento da equipe Xandar, destinado à centralização de pesquisas científicas, documentação técnica, referências, datasets, metodologias e aprendizados relacionados aos projetos da equipe, incluindo o NASA Space Apps Challenge.
+Base de conhecimento da equipe Xandar para o NASA Space Apps Challenge 2026, reunindo pesquisas científicas, documentação técnica, datasets, tecnologias, metodologias e referências para o desenvolvimento do projeto Dancing with the SARs.
