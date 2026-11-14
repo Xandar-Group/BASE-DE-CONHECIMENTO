@@ -1,5 +1,33 @@
 # 01 Desafio
 
-Descrição do desafio, objetivos, requisitos, critérios de avaliação e entregáveis.
+A superfície da Terra é uma dança interminável de processos naturais e atividades humanas, mas essas mudanças são muitas vezes difíceis de visualizar, entender e comunicar. Desde a perda de zonas húmidas até incêndios florestais, terramotos, actividades agrícolas, movimento de glaciares e muito mais, a Terra está numa valsa constante de mudanças superficiais. Seu desafio é construir um aplicativo interativo que use dados de sensoriamento remoto por radar da missão NASA-ISRO Synthetic Aperture Radar (NISAR) para rastrear e visualizar um ou mais tipos de mudanças de superfície em locais ao redor do mundo.
+
+## Antecedentes
+
+O sensoriamento remoto da Terra nos ajuda a adquirir informações a partir da visão aérea. Instrumentos espaciais e aéreos capturam imagens do planeta e contribuem para observações da Terra que ajudam os tomadores de decisão em vez de suas pesquisas de campo ou as complementam. A fonte mais comum de energia que esses instrumentos usam é o Sol, que reflete objetos e superfícies no solo de volta para o instrumento. A quantidade dessa energia varia de acordo com o comprimento de onda dentro do espectro eletromagnético, e podemos usar essa impressão digital espectral para identificar água, rochas/minerais, vegetação, etc. Esses instrumentos que utilizam a energia do Sol conduzem sensoriamento remoto passivo, enquanto instrumentos de radar, como os que usaremos neste desafio, conduzem sensoriamento remoto ativo.
+
+Instrumentos ativos emitem e recebem sua própria fonte de energia e, no caso do radar, operam na banda de micro-ondas do espectro eletromagnético. Instrumentos de radar podem ser usados para estudar a estrutura da floresta, umidade do solo, pântanos, topografia oceânica, gelo marinho e muito mais. Neste desafio, baixaremos dados de satélites SAR (radar de abertura sintética). SAR “sintetiza” uma antena longa combinando uma sequência de aquisições de sua antena real e mais curta para fornecer dados de maior resolução espacial. Os instrumentos SAR enviam um pulso de energia que reage com a superfície da Terra e é refletido de volta para o instrumento. Essa coleta pode ser feita de dia ou de noite e até mesmo em tempo nublado, o que permite a coleta de dados críticos durante eventos de desastres como derramamentos de óleo, incêndios florestais, furacões, etc.
+
+Os dados do radar são mais sensíveis a duas coisas: rugosidade e constante dielétrica. Em outras palavras, as imagens de radar são mais do que apenas imagens de satélite típicas que você pode ver com seu aplicativo GPS. Essas informações de rugosidade caracterizam a retrodispersão da superfície da Terra e diferentes polarizações e podem nos dizer algo sobre estrutura, geometria e propriedades do material. Como a água tem uma alta constante dielétrica, os dados SAR também destacam corpos d'água, inundações e umidade do solo. O SAR também pode medir movimentos finos da superfície em escala centimétrica, como terremotos e subsidência de terras.
+
+## Objetivos
+
+Na superfície da Terra há uma dança interminável de processos naturais e atividades humanas em constante movimento, mas essas mudanças são muitas vezes difíceis de visualizar, entender e comunicar. As zonas húmidas e as planícies aluviais estendem-se e retraem-se constantemente; as pegadas florestais estão a diminuir devido à desflorestação e aos incêndios florestais; as terras agrícolas transformam os seus tipos de culturas e a sua saúde, a humidade está a aumentar e a diminuir nos solos; os glaciares e o gelo marinho estão numa valsa constante; e as superfícies terrestres estão a deformar-se devido a terramotos e subsidência costeira. Todas estas mudanças têm implicações importantes para os ecossistemas, recursos hídricos, agricultura e infra-estruturas, afectando em última análise as comunidades locais.
+
+Neste desafio, os participantes criarão um aplicativo interativo que aproveita dados de sensoriamento remoto por radar do NISAR para rastrear e visualizar um ou mais tipos de mudanças de superfície em locais ao redor do mundo. Os participantes são incentivados a criar ferramentas intuitivas e visualizações inovadoras, como mapas interativos de detecção de mudanças, animações de séries temporais ou painéis, que tornem os dados do NISAR acessíveis a um público amplo. O resultado desejado é uma solução de código aberto e fácil de usar que traduza observações complexas de radar em insights acionáveis, ajudando cientistas, gestores de recursos, educadores, tomadores de decisão e o público a compreender melhor os padrões e ritmos da superfície da Terra em diferentes intervalos de tempo.
+
+Primeiro, escolha uma área de estudo interessante – pode ser sua cidade natal, um pântano tropical, uma camada de gelo, um incêndio florestal, um bairro inundado, uma erupção vulcânica, etc. - onde quer que a música chame você! Em segundo lugar, baixe dados NISAR disponíveis gratuitamente usando a lista de recursos fornecida. Talvez você queira baixar dados suplementares, como imagens ópticas ou camadas GIS (sistemas de informação geográfica) para contextualizar as imagens SAR. E, por fim, apresente suas descobertas em um meio digital interativo de sua preferência: um relatório final, vídeo, slides de apresentação, mapa da história - até mesmo uma dança interpretativa? Crie hipóteses sobre os fatores físicos por trás do que você vê (ou não vê) nos dados SAR. Por exemplo, se você estiver observando a Floresta Amazônica, por que a vegetação pode mudar com o tempo? Quais polarizações destacam essas mudanças na terra e no gelo? Quais aplicações futuras do NISAR são possíveis?
+
+## Considerações potenciais
+
+Você pode (mas não é obrigado a) considerar o seguinte:
+
+- Analisar dados NISAR com diferentes polarizações e/ou diferentes frequências (de outros sensores). Baixe dados de diferentes datas para mostrar uma série temporal e conjuntos de dados auxiliares (população, tipo de vegetação, etc.) para contextualizar a área de estudo.
+- Mostrar como os fatores humanos (agricultura, indústria, etc.) estão impactando os recursos naturais da Terra.
+- Concentrar-se em uma narrativa convincente por meio de visualizações de dados. O resumo do seu projeto pode estar em qualquer meio digital de sua preferência: um relatório final, vídeo, slides de apresentação, mapa da história, etc.
+- Se você estiver familiarizado com sua área de estudo (por exemplo, é sua cidade natal), fornecer contexto pessoal e histórias para as imagens SAR.
+- Considerar tornar seu resumo interativo (por exemplo, controles deslizantes de imagem, mapas da web, etc.).
+
+Para dados e recursos relacionados a este desafio, consulte a aba Recursos no topo da página. Mais recursos podem ser adicionados antes do início do hackathon.
 
 > Xandar · NASA Space Apps Challenge 2026 — Dancing with the SARs.
